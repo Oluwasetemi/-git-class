@@ -5,6 +5,19 @@ body {
   width: 100vmax;
   text-align: center;
 }
+
 h1 {
   text-align: center;
+}
+/* repeating-linear-gradient(-45deg, transparent, transparent 20px, black 20px, black 40px) */
+/*  border: 30px solid;
+  border-image: repeating-linear-gradient(45deg, #f33, #3bf, #f33 30px) 60;
+  padding: 20px;
+  linear-gradient(90deg, #48ded4 0%, #a026bf 20%, #e82c75 60%, #FFC40E 85%, #48ded4 95%); */
+body h1:hover {
+  border: 5px solid;
+  border-image: repeating-linear-gradient(90deg, #48ded4 0%, #a026bf 20%, #e82c75 60%, #FFC40E 85%, #48ded4 95%) 90;
+  padding: 20px;
+  /* background: #000000;
+  color: #ffffff; */
 }
